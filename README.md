@@ -173,14 +173,8 @@ TMDB_API_KEY=your_api_key_here
 *You can add a screenshot or demo GIF here once the app is running*
 
 ```
-![UI Screenshot](assets/example-ui.png)
+![UI Screenshot](demo/demo.png)
 ```
-
----
-
-## 📜 License
-
-This project is open-source under the [MIT License](LICENSE).
 
 ---
 
