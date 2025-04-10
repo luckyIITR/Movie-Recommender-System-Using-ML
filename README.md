@@ -39,8 +39,8 @@ streamlit run app.py
 
 1. Clone the repo:
 ```bash
-git clone https://github.com/yourusername/movie-recommender-streamlit.git
-cd movie-recommender-streamlit
+git clone https://github.com/luckyIITR/Movie-Recommender-System-Using-ML.git
+cd Movie-Recommender-System-Using-ML
 ```
 
 2. Create and activate a virtual environment:
@@ -69,7 +69,7 @@ streamlit run app.py
 ## 📁 Project Structure
 
 ```
-movie-recommender-streamlit/
+Movie-Recommender-System-Using-ML/
 ├── artifacts/
 │   ├── movie_list.pkl          # Pickled movie DataFrame
 │   └── similarity.pkl          # Cosine similarity matrix
@@ -121,8 +121,8 @@ After=network.target
 
 [Service]
 User=ubuntu
-WorkingDirectory=/home/ubuntu/movie-recommender-streamlit
-ExecStart=/home/ubuntu/movie-recommender-streamlit/venv/bin/streamlit run app.py --server.port 8501 --server.headless true
+WorkingDirectory=/home/ubuntu/Movie-Recommender-System-Using-ML
+ExecStart=/home/ubuntu/Movie-Recommender-System-Using-ML/venv/bin/streamlit run app.py --server.port 8501 --server.headless true
 Restart=always
 
 [Install]
@@ -186,6 +186,6 @@ This project is open-source under the [MIT License](LICENSE).
 
 ## 🙋‍♂️ Author
 
-Developed by [Your Name](https://github.com/yourusername)
+Developed by [Lucky Kushwaha](https://github.com/luckyIITR)
 
 Feel free to reach out or contribute!
